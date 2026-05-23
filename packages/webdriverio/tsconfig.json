@@ -1,0 +1,18 @@
+{
+  "extends": "../../tsconfig",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "./build",
+    "rootDir": "./src",
+    "allowJs": false
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.cts",
+    "../../@types",
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}
